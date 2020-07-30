@@ -1,5 +1,5 @@
 # ConsoleAppSerilogNoDI
-Sample settings and packages required to use Serilog in a .NET Core console app.
+Sample settings and packages required to use Serilog in a .NET Core 3.1 console app.
 The log file is rolling by day as in the settings.
 
 STEPS:
@@ -12,6 +12,7 @@ STEPS:
   PM> Install-Package Serilog.Sinks.Console
 
 2. Use the following config
+```json
 {
   "Serilog": {
     "Using": [ "Serilog.Sinks.Console" ],
@@ -32,3 +33,4 @@ STEPS:
     }
   }
 }
+```
