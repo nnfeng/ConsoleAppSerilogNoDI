@@ -4,12 +4,12 @@ The log file is rolling by day as in the settings.
 
 STEPS:
 1. Install the packages
-  PM> Install-Package Microsoft.Extensions.Configuration
-  PM> Install-Package Microsoft.Extensions.Configuration.FileExtensions
-  PM> Install-Package Microsoft.Extensions.Configuration.Json
-  PM> Install-Package Serilog.Settings.Configuration
-  PM> Install-Package Serilog.Sinks.File
-  PM> Install-Package Serilog.Sinks.Console
+* PM> Install-Package Microsoft.Extensions.Configuration
+* PM> Install-Package Microsoft.Extensions.Configuration.FileExtensions
+* PM> Install-Package Microsoft.Extensions.Configuration.Json
+* PM> Install-Package Serilog.Settings.Configuration
+* PM> Install-Package Serilog.Sinks.File
+* PM> Install-Package Serilog.Sinks.Console
 
 2. Use the following config
 ```json
